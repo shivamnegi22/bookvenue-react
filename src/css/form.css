@@ -1,0 +1,52 @@
+.common-form-heading
+{
+    font-weight: 500;
+    font-size: 28px;
+    opacity: .85;
+}
+
+.common-form-heading.inner-heading
+{
+    position: relative;
+    z-index: 1;
+}
+.common-form-heading.inner-heading span
+{
+    position: relative;
+    z-index: 3;
+    padding-right: 20px;
+    background-color: #fff;
+}
+.common-form-heading.inner-heading::before
+{
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.image-upload-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+
+/* customize date picker */
+
+.custom-date-picker .rmdp-container{
+    width: 100%;
+    display: block;
+}
+
+.custom-date-picker .rmdp-container input{
+    padding: 17px 20px;
+    width: 100%;
+}

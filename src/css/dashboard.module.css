@@ -1,0 +1,309 @@
+.customSidebar{
+    background: linear-gradient(175deg, var(--secondary) 0%,var(--secondary) 0%, var(--secondary) 30%, var(--primary) 100%);
+    height: 100vh;
+    position: relative;
+}
+
+.customSidebar .sidebarHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.customSidebar .sidebarHead img{
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.customSidebar hr{
+    background-image: linear-gradient(90deg, rgba(46, 46, 144, 0) 0%, white 49.72%, rgba(46, 46, 144, 0) 101.55%);
+    height: 1px;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+}
+
+.sidebarMenu{
+    margin-top: 70px;
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+.sidebarMenu::-webkit-scrollbar {
+    width: 0px;
+}
+
+.menuItem{
+    position: relative;
+    z-index: 99;
+    
+}
+.menuItem a, .sidebarAccordion .menuItem button{
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.5s ease;
+}
+
+.menuItem a svg, .sidebarAccordion .menuItem button svg{
+    font-size: 16px;
+}
+
+.menuItem::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px 0px 0px 15px;
+    z-index: -1;
+    transition: width 0.5s ease;
+}
+
+.menuItem.active::before{
+    width: 100%;
+}
+.menuItem:hover::before{
+    width: 100%;
+}
+
+.menuItem.active a, .sidebarAccordion .menuItem.active button{
+    color: var(--primary);
+}
+
+.menuItem:hover a, .sidebarAccordion .menuItem:hover button{
+    color: var(--primary);
+}
+
+
+.sidebarFooter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebarFooter span{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+}
+
+.sidebarFooter button{
+    padding-left: 30px;
+    color: white!important;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 15px;
+    border: 0;
+}
+/* .sidebarFooter button:hover{
+    color: var(--primary);
+} */
+
+.sidebarFooter button svg{
+    font-size: 16px;
+}
+
+.sidebarContentWrapper{
+    background-color: white;
+    height: 100vh;
+    position: relative;
+    overflow-y: auto;
+}
+
+.sidebarOpen,.sidebarClose{
+    display: none;
+    cursor: pointer;
+    border: 0;
+}
+
+.sidebarSubMenu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.submenuDropdownIcon svg{
+    font-size: 24px!important;
+    transition: transform 0.5s ease;
+}
+
+.sidebarAccordion .menuItem{
+    background: none;
+    border: 0;
+}
+
+.sidebarAccordion .menuItem button{
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.sidebarAccordion .menuItem button[aria-expanded=true] .submenuDropdownIcon svg{
+    transform: rotate(180deg);
+}
+
+.sidebarAccordion .menuItem button::after{
+    display: none!important;
+}
+
+.customBackdrop{
+
+}
+.sidebarAccordion .menuItem:has(h2 button[aria-expanded=true]) {
+    border-radius: 15px 0px 0px 15px;
+    background-color: white;
+}
+
+.sidebarAccordion .menuItem:has(h2 button[aria-expanded=true]) button, .sidebarAccordion .menuItem:has(h2 button[aria-expanded=true]) a{
+    color: #2E2E90;
+}
+
+@media only screen and (max-width : 1399px){
+    .menuItem a,.sidebarFooter button svg,.sidebarFooter button,.menuItem a svg, .sidebarAccordion .menuItem button, .sidebarAccordion .menuItem button svg{
+        font-size: 14px;
+    }
+    .sidebarFooter span{
+        font-size: 12px;
+    }
+    .customSidebar .sidebarHead img{
+        height: 35px;
+    }
+    .menuItem a, .sidebarAccordion .menuItem button{
+        padding: 10px 0px 10px 20px;
+    }
+    .customSidebar{
+        width:20.66666667%;
+    }
+    .sidebarContentWrapper{
+       width: 79.33333333%;
+       background-color: aliceblue;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .menuItem a,.sidebarFooter button svg,.sidebarFooter button,.menuItem a svg, .sidebarAccordion .menuItem button, .sidebarAccordion .menuItem button svg{
+        font-size: 12px;
+    }
+    .sidebarFooter span{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width :991px) {
+    .customSidebar{
+        z-index: 9999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        transition: width 0.5s ease;
+    }
+    .customSidebar.active{
+        width:26.66666667%;
+    }
+    .sidebarContentWrapper{
+        width: 100%;
+     }
+     .sidebarOpen{
+        display: block;
+        position: sticky;
+        top: 0;
+        font-size: 24px;
+        background-color: white;
+     }
+     .sidebarClose{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: -1rem;
+        font-size: 14px;
+        line-height: 0;
+        padding: 10px;
+        background: white;
+        border-radius: 50%;
+     }
+     .menuItem a,.sidebarFooter button,.sidebarFooter span, .sidebarAccordion .menuItem button{
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width :767px) {
+    .customSidebar.active{
+        width:34.66666667%;
+    }
+}
+
+@media only screen and (max-width :575px) {
+    .customSidebar.active{
+        width:42.66666667%;
+    }
+
+@media only screen and (max-width : 480px) {
+    .customSidebar.active{
+        width:99.66666667%;
+    }
+
+    .sidebarClose{
+        right: 0;
+    }
+}
+
+}
+/* CSS for mobile devices */
+
+.mobileContentWrapper{
+    min-height: 100vh;
+    position: relative;
+    background-color: white;
+}
+
+.mobileContent{
+    padding: 15px;
+}
+
+.mobileMenu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+}
+
+.mobileMenu ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    background-color: white;
+    box-shadow: 10px 8px 10px 5px var(--primary);
+    border-radius: 3px 3px 0px 0px;
+}
+
+.mobileMenu ul li{  
+    color: var(--primary);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobileMenu ul li.active{
+    box-shadow: 0px 0px 5px var(--primary);
+    font-size: 40px;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px;
+}
+

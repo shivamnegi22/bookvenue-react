@@ -1,0 +1,174 @@
+/* Terms & Services */
+
+.Terms-Services {
+    margin-top: 10px;
+}
+
+.Terms-Services .Terms-Heading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.Terms-Services .Terms-twoHeading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Terms-Services .Para-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.Terms-Services .list-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+
+/* FAQ CSS */
+
+.TeRM-FaQ {
+    margin-top: 10px;
+}
+
+.TeRM-FaQ .Terms-Heading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 0 0px 30px 0px;
+}
+
+
+.TeRM-FaQ .Para-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+
+/* PrivacyPolicy  CSS */
+
+.Privacy-Policy {
+    margin-top: 10px;
+}
+
+.Privacy-Policy .Terms-Heading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 0 0px 30px 0px;
+}
+
+.Privacy-Policy .Para-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.Privacy-Policy .Terms-twoHeading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Privacy-Policy .Privacy-three {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Privacy-Policy .Privacy-Four {
+    color: var(--black-medium-for-heading, #120e0e);
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Privacy-Policy .list-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.7rem;
+}
+
+
+/*   ReturnRefund CSS  */
+
+.Return-Refund {
+    margin-top: 10px;
+}
+
+.Return-Refund .Terms-Heading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 0 0px 30px 0px;
+}
+
+.Return-Refund .Para-Terms {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.Return-Refund .Terms-twoHeading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Return-Refund .Privacy-three {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.Return-Refund .list-Terms {
+    /* color: var(--black-medium-for-heading, #120e0e); */
+    /* font-family: Poppins; */
+    font-size: 13px;
+    line-height: 1.7rem;
+}

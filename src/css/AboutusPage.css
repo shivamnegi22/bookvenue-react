@@ -1,0 +1,149 @@
+/* About-usPage */
+
+.about-usPage .about-us-heading {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+}
+
+.about-usPage .about-us-para {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.about-usPage .about-us-mainpra {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+
+.about-usPage .user-about {
+    /* position: relative; */
+    left: -14%;
+    margin-top: 60px;
+}
+
+/*  About-Img */
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+    width: 680px;
+    height: 241px;
+    padding: 0 0px 20px 180px;
+}
+
+/* Fact Area */
+
+.fact-area {
+    margin-top: 90px;
+}
+
+.fact-area .fact-box {
+    border-radius: 4px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fact-area .single-fact {
+    text-align: center;
+    margin: 45px 0;
+    padding: 8px 16px;
+    border-right: 1px solid #ddd;
+}
+
+.fact-area .single-fact-last{
+    text-align: center;
+    margin: 45px 0;
+    padding: 8px 16px;
+}
+
+.fact-area .single-fact .venu {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: var(--Black-High, #000);
+    font-family: Montserrat;
+}
+
+.fact-area .single-fact .venu-para {
+    margin: 0;
+    font-size: 14px;
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+}
+
+/* About-usContent */
+
+.about-usContent {
+    margin-top: 20vh;
+    height: 80vh;
+}
+
+.about-usContent .usContent {
+    color: var(--black-medium-for-heading, #494949);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-usContent .usContent-para {
+    color: var(--black-low-for-para, #515151);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+
+
+/*   Media - Querry */
+
+@media only screen and (max-width: 767px) {
+    .about-usPage .about-us-para {
+        font-size: 30px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-usPage .about-us-heading {
+        font-size: 20px;
+    }
+
+    .about-usContent .usContent {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .about-usPage .about-us-para {
+        font-size: 40px;
+    }
+
+    .about-img {
+        width: 80%;
+    }
+
+}

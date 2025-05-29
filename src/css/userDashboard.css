@@ -1,0 +1,45 @@
+.dashbord-usr
+{
+  
+  padding: 20px 0;
+
+}
+
+.aside-usr
+{
+    background-color: var(--light);
+    border-radius: 4px;
+    padding: 20px;
+}
+.aside-detail-box-usr
+{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom:  1px solid var(--grey);
+}
+.aside-detail-box-icon-usr
+{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--primary);
+    border-radius: 50%;
+
+}
+.aside-usr ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.aside-usr ul li .upload-heading{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.aside-outlet-wrapper-usr
+{
+    padding: 30px;
+}

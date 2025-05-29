@@ -1,0 +1,496 @@
+section.single-page-container .title-heading-si{
+    color: var(--black);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+/* Customize images carousel */
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content{
+    flex-wrap: wrap;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper{
+    flex: 0 0 80%;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper{
+    flex: 0 0 20%;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-prev.p-link,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-next.p-link{
+    z-index: 1;
+    padding: 8px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-prev.p-link svg path,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-next.p-link svg path{
+    fill: white;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-prev.p-link{
+    top: 15px;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-next.p-link{
+    bottom: 15px;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item .carousel-img-wrapper-si .carousel-img-si,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container{
+    height: 69vh!important;
+    width: 100%;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item .carousel-img-wrapper-si,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item .p-galleria-thumbnail-item-content  .carousel-img-wrapper-si{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item .carousel-img-wrapper-si .img-overlay-si,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item .p-galleria-thumbnail-item-content  .carousel-img-wrapper-si .img-overlay-si{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #00000080;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper .p-galleria-item-container{
+    width: 100%;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item .p-galleria-thumbnail-item-content  .carousel-img-wrapper-si .img-overlay-si .overlay-title-si{
+    font-size: 14px;   
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item .carousel-img-wrapper-si:hover  .img-overlay-si,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item .p-galleria-thumbnail-item-content  .carousel-img-wrapper-si:hover .img-overlay-si,
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item.p-galleria-thumbnail-item-current .p-galleria-thumbnail-item-content  .carousel-img-wrapper-si .img-overlay-si{
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item{
+    overflow: hidden;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item .p-galleria-thumbnail-item-content{
+    padding-bottom: 8px;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container .p-galleria-thumbnail-items-container .p-galleria-thumbnail-items .p-galleria-thumbnail-item-end .p-galleria-thumbnail-item-content{
+    padding-bottom: 0px;
+}
+
+section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content .p-galleria-thumbnail-wrapper .p-galleria-thumbnail-container{
+    position: relative;
+    background-color: transparent;
+}
+
+/* end customization of carousel */
+
+/* Configuration container */
+
+section.single-page-container .configure-container-si .card{
+    border-radius: 4px;
+}
+
+section.single-page-container .configure-container-si .card .heading-si{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+section.single-page-container .configure-container-si .card .desc-si{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+}
+
+/* common calendor */
+
+section.single-page-container .configure-container-si .card .common-calendor-si{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    color: var(--text);
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si button{
+    background: none;
+    border: 0;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__arrow{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__weekdays .react-calendar__month-view__weekdays__weekday{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__weekdays .react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__days .react-calendar__month-view__days__day{
+    font-size: 14px;
+    font-weight: 500;
+    padding:  5px 10px;
+    margin: 5px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+}
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__days .react-calendar__month-view__days__day:disabled{
+    color: var(--grey);
+    font-weight: 400;
+    cursor: not-allowed;
+}
+
+/* section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__days .react-calendar__month-view__days__day--neighboringMonth{
+    font-weight: 400;
+    color: var(--grey);
+} */
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__month-view .react-calendar__month-view__days .react-calendar__tile--active{
+    background: var(--primary)!important;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__prev-button, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__next-button{
+    color: var(--black-low);
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__prev2-button, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__navigation .react-calendar__navigation__next2-button{
+    color: var(--text);
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__year-view .react-calendar__year-view__months .react-calendar__year-view__months__month, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__decade-view .react-calendar__decade-view__years .react-calendar__decade-view__years__year, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__century-view .react-calendar__century-view__decades .react-calendar__century-view__decades__decade{
+    padding: 10px;
+}
+
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__year-view .react-calendar__year-view__months .react-calendar__year-view__months__month.react-calendar__tile--hasActive, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__decade-view .react-calendar__decade-view__years .react-calendar__decade-view__years__year.react-calendar__tile--hasActive, 
+section.single-page-container .configure-container-si .card .common-calendor-si .react-calendar__viewContainer .react-calendar__century-view .react-calendar__century-view__decades .react-calendar__century-view__decades__decade.react-calendar__tile--hasActive{
+    color: var(--primary);
+    font-weight: 500;
+}
+
+
+/* End customize calendor */
+
+section.single-page-container  .configure-container-si .book-now-btn-si{
+    color: white;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+section.single-page-container  .configure-container-si .book-now-btn-si:hover{
+    background-color: var(--hover);
+}
+
+section.single-page-container .img-carousel-container-si .card .described-si .location-name-si{
+    font-size: 16px;
+    color: var(--text);
+    font-weight: 400;
+}
+
+section.single-page-container .img-carousel-container-si .card .described-si .rating-icon-si{
+    padding: 10px;
+    background-color: var(--primary-light);
+    color: var(--primary);
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+}
+
+section.single-page-container .img-carousel-container-si .card .described-si .rating-text-si{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black-low);
+}
+
+section.single-page-container .img-carousel-container-si .card .described-si .rate-venue-si{
+    font-weight: 16px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/* nav tab cutomize */
+section.single-page-container .img-carousel-container-si .nav-tabs-si .nav-tabs .nav-item:not(:first-child){
+    padding: 0px 10px;
+    outline: 0;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .nav-tabs .nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-low);   
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .nav-tabs .nav-item .nav-link.active, 
+section.single-page-container .img-carousel-container-si .nav-tabs-si .nav-tabs .nav-item .nav-link:is(:hover,:active,:focus){
+    border-bottom:1.6px solid var(--primary);
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .nav-tabs .nav-item .nav-link.active{
+    font-weight: 700;
+    color: black;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .tab-content .tab-container-si{
+    padding: 15px 0px;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .tab-content .tab-container-si .heading-si{
+    font-weight: 700;
+    color: black;
+    padding: 15px 0px;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .tab-content .tab-container-si .desc-si{
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 400;
+}
+section.single-page-container .img-carousel-container-si .nav-tabs-si .tab-content .tab-container-si .desc-si .icon-si{
+    font-size: 16px;
+    width: 30px;
+    display: inline-block;
+}
+
+section.single-page-container .img-carousel-container-si .nav-tabs-si .tab-content .tab-container-si .desc-si .text-si{
+    width: 150px;
+    display: inline-block;
+}
+
+/* New css */
+
+.choose-service-btn-si{
+    width: fit-content;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--light);
+    border-radius: 3px;
+    color: var(--black-low);
+    transition: all ease-in-out 0.3s;
+    font-size: 14px;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.choose-service-btn-si:hover, .choose-service-btn-si.active{
+    border-color:var(--primary);
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.choose-service-btn-si:disabled{
+    background-color: var(--light);
+    border-color: var(--light);
+}
+
+.choose-courts-btn-si{
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid;
+    border-color: var(--light);
+    border-radius: 3px;
+    color: var(--black-low);
+    transition: all ease-in-out 0.3s;
+    font-size: 14px;
+    font-weight: 400;
+}
+.choose-courts-btn-si .headingSi{
+    color: var(--black);
+    font-weight: 500;
+}
+
+.choose-courts-btn-si:hover{
+    border-color:var(--black) ;
+}
+
+.singlePage-slots-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user-address-form-wrapper form .error-message{
+    color: red;
+    margin-top: 5px;
+    font-size: 10px;
+}
+/* ==============responsive================================== */
+@media (min-width:1921px ) and (max-width: 2561px) { 
+
+  
+ 
+}
+
+
+@media (min-width:1536px ) and (max-width: 1920px) 
+{
+
+  
+}
+
+
+@media (max-width: 1399.98px) 
+{
+ 
+}
+
+
+@media (max-width: 1199.98px)
+{  
+
+ 
+
+}
+
+
+@media (max-width: 1024.98px) 
+{
+
+  
+}
+
+@media (max-width: 991.98px) 
+{
+    section.single-page-container .title-heading-si 
+    {
+        font-size: 20px;
+    }
+    .custom-margin
+    {
+        margin-top: 50px;
+    }
+    section.single-page-container .img-carousel-container-si .p-galleria .p-galleria-content 
+    .p-galleria-item-wrapper .p-galleria-item-container .p-galleria-item .carousel-img-wrapper-si 
+    .carousel-img-si
+    {
+        height: 300px;
+    }
+  
+}
+
+
+@media (max-width: 937.98px) 
+{
+    
+}
+@media (max-width: 890.98px) 
+{
+ 
+}
+
+@media (max-width: 800.98px) 
+{
+  
+}
+
+@media (max-width: 767.98px) 
+{
+    
+
+}
+
+@media (max-width: 630.98px) 
+{
+
+}
+@media (max-width: 575.98px) 
+{
+  
+   
+   
+}
+
+
+
+@media (max-width: 516.98px) 
+{
+
+}
+
+@media (max-width: 483.98px) 
+{
+
+}
+
+
+@media (max-width: 440.98px) 
+{
+
+}
+
+@media (max-width: 420.98px) 
+{
+
+  
+}
+
+
+
+@media (max-width: 380.98px)
+{
+  
+}

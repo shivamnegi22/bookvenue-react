@@ -1,0 +1,517 @@
+/* Customize header shadow */
+
+.customize-map-box-shadow-h{
+    box-shadow: 0px 0px 50px 20px white;
+    position: relative;
+    z-index: 1;
+    height: 1px;
+    width: 100%;
+}
+
+/* End Customize header shadow */
+
+/* Search Section */
+
+section.search-wrapper-h{
+    box-shadow: 0px -50px 50px white;
+    position: relative;
+}
+
+section.search-wrapper-h label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section.search-wrapper-h .custom-icons-h{
+    font-size: 24px;
+}
+
+section.search-wrapper-h input, section.search-wrapper-h select{
+    border-left: 0px;
+    box-shadow: none!important;
+    border-color: var(--grey)!important;
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: var(--text);
+}
+
+section.search-wrapper-h .input-group-text{
+    background: none;
+    padding-right: 0px;
+    border-color: var(--grey);
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+section.search-wrapper-h input::placeholder,section.search-wrapper-h input, section.search-wrapper-h select{
+    color: var(--grey);
+    font-weight: normal;
+  }
+
+section.search-wrapper-h select option{
+    font-weight: 500;
+    color: var(--text);
+}
+
+section.search-wrapper-h .custom-dropdown-h{
+    flex: 1;
+    background: white;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px;
+    position: static;
+}
+
+section.search-wrapper-h .custom-dropdown-h button.btn.dropdown-toggle{
+    width: 100%;
+    text-align: left;
+    border: 0;
+    padding: 10px;
+    color: var(--grey);
+}
+
+section.search-wrapper-h .custom-dropdown-h button.btn.dropdown-toggle::after{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: var(--text);
+}
+
+section.search-wrapper-h .custom-dropdown-h .dropdown-menu{
+    width: 100%;
+    transform: none!important;
+    bottom: calc(2px + 100%)!important;
+    top: unset!important;
+    z-index: 1;
+}
+section.search-wrapper-h .custom-dropdown-h .dropdown-menu .dropdown-item:active{
+    background-color: var(--primary);
+}
+
+/* End Search section */
+
+
+/* Featured venue section */
+
+section.featured-venue-h{
+    display: flex;
+    flex-direction: column;
+}
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header{
+    position: relative;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header img.card-img-top{
+    height: 250px;
+    object-fit: cover;
+    object-position:left ;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-rating{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 16px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-detail{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-detail .venue-name, section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-detail .venue-distance{
+    margin-bottom: 0;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-detail .venue-name
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-icons{
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+    width: 49%;
+    height: 70px;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-icons span:nth-child()::after{
+    content: '...';
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-description{
+    font-size: 12px;
+    font-weight: 400;
+    padding:0px 20px;
+    margin-bottom: 0px;
+    color: var(--text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-booking-btn{
+    border:1px solid var(--primary);
+    color: var(--primary);
+    box-shadow: none;
+    border-radius:5px ;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 20px;
+    margin-bottom: 30px;
+    transition: all ease-in-out 0.3s;
+}
+
+section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-booking-btn:hover{
+    background-color: var(--hover);
+    color: #FFF;
+}
+
+section.featured-venue-h .venue-cart-container:first-child .venue-card{
+    box-shadow: 0px 4px 63px 0px rgba(0, 0, 0, 0.25);
+} 
+
+section.featured-venue-h .venue-cart-container .venue-card{
+    box-shadow: 25px 4px 63px 0px rgba(0, 0, 0, 0.25);
+    background-color: #FFF;
+    height: 100%;
+}
+
+section.featured-venue-h .main-heading{
+    color: var(--black);
+    text-align: center;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* End featured venue section */
+
+/* Add facility section */
+
+section.add-facility-h {
+    background-color: var(--light);
+    margin-top: 100px;
+}
+
+section.add-facility-h .facility-content-f{
+    width: 80%;
+}
+
+section.add-facility-h .facility-content-f .facility-heading-f{
+    color: var(--primary);
+    font-weight: 400;
+}
+
+section.add-facility-h .facility-content-f .facility-description-f{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+section.add-facility-h .facility-content-f .facility-button-f{
+    color: white;
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+section.add-facility-h .facility-content-f .facility-button-f:hover{
+    background-color: var(--hover);
+}
+
+section.add-facility-h .facility-content-f .facility-button-f .add-icon{
+    font-size: 18px;
+}
+
+section.add-facility-h .add-facility-icon-wrapper-f .add-facility-icon-f{
+    height: 410px;
+    margin: -50px 0px;
+    max-width: 100%;
+}
+
+/* End Add facility section */
+
+/* recent section */
+section.recent-add-h{
+    padding-bottom: 150px;
+}
+
+section.recent-add-h .main-heading{
+    color: var(--black);
+    text-align: center;
+    font-weight: 400;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+section.recent-add-h .recent-add-sport-card-wrapper-h .recent-add-sport-card-h{
+    padding: 40px 30px 30px 30px;
+    display: flex;
+    background: var(--light);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.recent-add-h .recent-add-sport-card-wrapper-h .recent-add-sport-card-h .recent-add-sport-card-heading-h,
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h .recent-add-card-heading-h{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0px;
+    color: var(--black);
+}
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h .recent-add-card-heading-h
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+section.recent-add-h .recent-add-sport-card-wrapper-h .recent-add-sport-card-h .recent-add-sport-desc-h,
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h .recent-add-desc-h{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text);
+}
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h .recent-add-desc-h
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+section.recent-add-h.recent-venue-h{
+    background-color: var(--light);
+}
+
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+section.recent-add-h.recent-venue-h .recent-add-card-wrapper-h .recent-add-card-h .recent-add-img-h{
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* end recent section */
+
+/* ==============responsive================================== */
+@media (min-width:1921px ) and (max-width: 2561px) { 
+
+  
+ 
+}
+
+
+@media (min-width:1536px ) and (max-width: 1920px) 
+{
+
+  
+}
+
+
+@media (max-width: 1399.98px) 
+{
+ 
+}
+
+
+@media (max-width: 1199.98px)
+{  
+
+ 
+
+}
+
+
+@media (max-width: 1024.98px) 
+{
+
+  
+}
+
+@media (max-width: 991.98px) 
+{
+
+    section.featured-venue-h .main-heading,section.recent-add-h .main-heading
+    {
+        padding-bottom: 60px;
+    }
+    section.featured-venue-h .venue-cart-container .venue-card
+    {
+        margin-bottom: 25px;
+    }
+    section.featured-venue-h .venue-cart-container .venue-card .venue-card-header .venue-rating
+    {
+        padding: 6px 14px;
+        font-size: 16px;
+    
+    }
+    section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-booking-btn
+    {
+        margin: 20px 20px;
+        font-size: 13px;
+        padding: 6px 20px;
+    }
+    section.add-facility-h .facility-content-f .facility-heading-f
+    {
+        font-size: 26px;
+    }
+    section.add-facility-h .facility-content-f .facility-button-f
+    {
+       font-size: 14px;
+       padding: 10px 20px;
+    }
+    
+ 
+}
+
+@media (max-width: 937.98px) 
+{
+    
+}
+@media (max-width: 890.98px) 
+{
+ 
+}
+
+@media (max-width: 800.98px) 
+{
+  
+}
+
+@media (max-width: 767.98px) 
+{
+    section.featured-venue-h .venue-cart-container .venue-card .venue-card-header img.card-img-top
+    {
+        height:200px;
+    }
+    section.featured-venue-h .venue-cart-container .venue-card .venue-card-body .venue-icons
+
+    {
+        padding-top: 15px;
+    }
+    section.add-facility-h .facility-content-f
+    {
+        width: 100%;
+        padding: 0 20px 0 0!important;
+    }
+    section.add-facility-h .facility-content-f .facility-heading-f
+  {
+    font-size: 22px;
+  }
+  section.add-facility-h .facility-content-f .facility-button-f {
+    font-size: 13px;
+    padding: 8px 20px;
+   }
+}
+
+@media (max-width: 630.98px) 
+{
+
+}
+@media (max-width: 575.98px) 
+{
+    .add-facility-h .row
+    {
+        flex-direction: column-reverse;
+    }
+    section.add-facility-h .add-facility-icon-wrapper-f .add-facility-icon-f
+    {
+        height: 200px;
+        margin: 0 0 20px 0;
+    }
+    .add-facility-icon-wrapper-f
+    {
+      text-align: center;
+    }
+    section.add-facility-h .facility-content-f .facility-heading-f
+    {
+        font-size: 18px;
+    }
+    section.add-facility-h
+    {
+        padding: 50px 0;
+    }
+    section.add-facility-h .facility-content-f .facility-button-f {
+        font-size: 11px;
+        padding: 6px 20px;
+    }
+    section.search-wrapper-h .custom-dropdown-h button.btn.dropdown-toggle
+    {
+        padding: 4px 8px;
+    }
+}
+
+
+
+@media (max-width: 516.98px) 
+{
+
+}
+
+@media (max-width: 483.98px) 
+{
+
+}
+
+
+@media (max-width: 440.98px) 
+{
+
+}
+
+@media (max-width: 420.98px) 
+{
+
+  
+}
+
+
+
+@media (max-width: 380.98px)
+{
+  
+}

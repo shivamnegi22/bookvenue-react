@@ -1,0 +1,11 @@
+.profile-action-btn-wrapper-usr
+{
+    margin-top: 50px;
+}
+
+
+.edit-profile-usr form  .error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 10px;
+  }
